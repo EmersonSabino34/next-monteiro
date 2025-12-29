@@ -36,6 +36,7 @@ export default function Header() {
                 <li><Link href="#reservas">Reservas</Link></li>
               </ul>
             </nav>
+            
             <div className={styles.mobileMenuBtn} onClick={toggleMenu}>
               <i className="bi bi-list"></i>
             </div>
