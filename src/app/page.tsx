@@ -53,7 +53,6 @@ export default function Home() {
       price: '21,50€',
     },
   ];
-
   const especialidades = [
     {
       image: '/img/picanha.jpg',
