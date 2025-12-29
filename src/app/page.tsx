@@ -11,7 +11,6 @@ export default function Home() {
       price: '25,00€',
     },
     {
-      
       image: '/img/carbonara.jpg',
       title: 'Espaguete à Carbonara',
       description: 'Carbonara tradicional com bacon crocante e parmesão.',
