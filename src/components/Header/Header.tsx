@@ -11,7 +11,6 @@ export default function Header() {
   const toggleMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
-
   return (
     <>
       <header className={styles.header}>
