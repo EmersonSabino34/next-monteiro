@@ -37,6 +37,7 @@ export default function ReservationForm() {
         <label>Nome completo</label>
         <input type="text" name="name" required />
       </div>
+      
       <div className={styles.campo}>
         <label>Telefone / WhatsApp</label>
         <input type="tel" name="phone" placeholder="(00) 00000-0000" required />
