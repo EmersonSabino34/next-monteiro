@@ -19,16 +19,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  flex-shrink: 0;
 }
 
 .logo img {
   height: 65px;
+  width: auto;
 }
 
 .navDesktop ul {
   display: flex;
-  gap: 2.5rem;
+  gap: 2rem;
   list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .navDesktop a {
@@ -36,6 +44,7 @@
   color: var(--dark);
   font-weight: 500;
   transition: 0.3s;
+  white-space: nowrap;
 }
 
 .navDesktop a:hover {
@@ -47,6 +56,9 @@
   cursor: pointer;
   color: var(--primary);
   display: none;
+  background: none;
+  border: none;
+  padding: 0.5rem;
 }
 
 .mobileMenu {
@@ -71,14 +83,20 @@
 .mobileMenu ul {
   text-align: center;
   list-style: none;
+  padding: 2rem;
 }
 
 .mobileMenu a {
   color: white;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-decoration: none;
   display: block;
-  padding: 1rem;
+  padding: 1.2rem;
+  transition: 0.3s;
+}
+
+.mobileMenu a:hover {
+  color: var(--secondary);
 }
 
 .closeMobile {
@@ -87,6 +105,23 @@
   right: 30px;
   font-size: 3rem;
   cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.closeMobile:hover {
+  color: var(--secondary);
+}
+
+/* Responsividade do Header */
+@media (max-width: 1024px) {
+  .navDesktop ul {
+    gap: 1.5rem;
+  }
+  
+  .navDesktop a {
+    font-size: 0.95rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -95,5 +130,24 @@
   }
   .navDesktop {
     display: none;
+  }
+  
+  .logo img {
+    height: 55px;
+  }
+  
+  .container {
+    padding: 0.8rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    height: 50px;
+  }
+  
+  .mobileMenu a {
+    font-size: 1.5rem;
+    padding: 1rem;
   }
 }
