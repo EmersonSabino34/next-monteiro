@@ -150,7 +150,6 @@ export default function Home() {
       price: '6,00€',
     },
   ];
-
   return (
     <main>
       <Hero />
