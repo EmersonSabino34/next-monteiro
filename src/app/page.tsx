@@ -153,7 +153,6 @@ export default function Home() {
   return (
     <main>
       <Hero />
-
       {/* Menu Principal */}
       <section id="menu" className="section container">
         <h1>Nosso Cardápio</h1>
