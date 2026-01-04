@@ -121,7 +121,6 @@ export default function Home() {
       price: '7,50€',
     },
   ];
-
   const sobremesas = [
     {
       image: '/img/baba de camelo.jpg',
