@@ -56,6 +56,7 @@ export default function Home() {
   ];
   
   const especialidades = [
+    
     {
       image: '/img/picanha.jpg',
       title: 'Picanha Premium',
