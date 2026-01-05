@@ -112,6 +112,7 @@ export default function Home() {
   ];
 
   const entradas = [
+    
     {
       image: '/img/amejoas.jpg',
       title: 'Ameijôas à Bulhão Pato',
