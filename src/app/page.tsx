@@ -143,6 +143,7 @@ export default function Home() {
   ];
 
   const bebidas = [
+    
     {
       image: '/img/suco natural.jpg',
       title: 'Suco Natural',
