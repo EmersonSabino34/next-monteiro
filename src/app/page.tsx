@@ -84,6 +84,7 @@ export default function Home() {
   ];
 
   const menuGrupos = [
+    
     {
       image: '/img/Arroz de Marisco.webp',
       title: 'Arroz de Marisco (mín. 2 pessoas)',
