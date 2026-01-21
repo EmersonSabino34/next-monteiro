@@ -2,6 +2,7 @@ import Hero from '@/components/Hero/Hero';
 import MenuCard from '@/components/MenuCard/MenuCard';
 import ReservationForm from '@/components/ReservationForm/ReservationForm';
 
+
 export default function Home() {
   const menuItems = [
 
