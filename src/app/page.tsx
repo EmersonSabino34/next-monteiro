@@ -41,6 +41,7 @@ export default function Home() {
       description: 'Completa com carnes suínas, arroz, couve, farofa e laranja.',
       price: '22,00€',
     },
+    
     {
       image: '/img/peito de frango.jpg',
       title: 'Frango Grelhado',
