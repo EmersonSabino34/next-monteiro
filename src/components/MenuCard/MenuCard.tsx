@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './MenuCard.module.css';
+
 interface MenuCardProps {
   image: string;
   title: string;
