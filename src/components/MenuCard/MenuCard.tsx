@@ -7,6 +7,7 @@ interface MenuCardProps {
   description: string;
   price: string;
 }
+
 export default function MenuCard({ image, title, description, price }: MenuCardProps) {
   return (
     <div className={styles.card}>
