@@ -19,6 +19,7 @@ export default function MenuCard({ image, title, description, price }: MenuCardP
           height={230}
           className={styles.image}
         />
+        
       </div>
       <div className={styles.info}>
         <h3>{title}</h3>
