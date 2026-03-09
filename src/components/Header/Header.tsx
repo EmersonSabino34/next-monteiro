@@ -25,7 +25,6 @@ export default function Header() {
                 priority
               />
             </div>
-            
             <nav className={styles.navDesktop}>
               <ul>
                 <li><Link href="#home">Home</Link></li>
